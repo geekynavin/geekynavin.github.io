@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header{
+    background: linear-gradient(to right,#06eedb,rgb(255, 0, 234));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    color: #fff;
+
+}
+header img{
+    border-radius: 50%;
+    width: 210px;
+    height: 200px;
+    outline: none;
+    margin: 10px 10px;
+    border: 7px solid #000;
+    transition: 0.8s ;
+
+
+
+}
+header img:hover{
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.623);
+    transition: 0.8s ;
+
+
+}
+
+div h1,h3{
+    text-transform: uppercase;
+    line-height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+.name {
+    font-size: 60px;
+    font-weight:600;
+    letter-spacing: 7px;
+    transition: 0.8s ;
+}
+.name:hover{
+    color: transparent;
+    background:linear-gradient(to right,red,blue);
+    -webkit-background-clip: text;
+    transition: 0.8s ;
+
+
+}
+.social{
+    margin-top: 1%;
+}
+.social a{
+    display: block;
+    color: #000000d5;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px 10px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.8s ease-in;
+   
+}
+.social a:hover{
+    color: #fff;
+    background:linear-gradient(to right,red,blue);
+    transition: all 0.8s ease-in;
+
+}
+#copy{
+    margin-top:10px;
+    font-size: 10px;
+    color: #fff;
+}
